@@ -1,0 +1,967 @@
+17/04/23 20:27:59 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+17/04/23 20:28:02 INFO Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+17/04/23 20:28:02 INFO jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
+17/04/23 20:28:02 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+17/04/23 20:28:02 INFO input.FileInputFormat: Total input paths to process : 1
+17/04/23 20:28:02 INFO mapreduce.JobSubmitter: number of splits:1
+17/04/23 20:28:03 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_local462169198_0001
+17/04/23 20:28:04 INFO mapreduce.Job: The url to track the job: http://localhost:8080/
+17/04/23 20:28:04 INFO mapreduce.Job: Running job: job_local462169198_0001
+17/04/23 20:28:04 INFO mapred.LocalJobRunner: OutputCommitter set in config null
+17/04/23 20:28:04 INFO mapred.LocalJobRunner: OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+17/04/23 20:28:04 INFO mapred.LocalJobRunner: Waiting for map tasks
+17/04/23 20:28:04 INFO mapred.LocalJobRunner: Starting task: attempt_local462169198_0001_m_000000_0
+17/04/23 20:28:04 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+17/04/23 20:28:04 INFO mapred.MapTask: Processing split: hdfs://localhost:9000/home/hadoop/InputFiles4/temp/vitruvius.de_architectura.tess:0+434535
+17/04/23 20:28:04 INFO mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+17/04/23 20:28:04 INFO mapred.MapTask: mapreduce.task.io.sort.mb: 100
+17/04/23 20:28:04 INFO mapred.MapTask: soft limit at 83886080
+17/04/23 20:28:04 INFO mapred.MapTask: bufstart = 0; bufvoid = 104857600
+17/04/23 20:28:04 INFO mapred.MapTask: kvstart = 26214396; length = 6553600
+17/04/23 20:28:04 INFO mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+17/04/23 20:28:05 INFO mapreduce.Job: Job job_local462169198_0001 running in uber mode : false
+17/04/23 20:28:05 INFO mapreduce.Job:  map 0% reduce 0%
+17/04/23 20:28:05 INFO mapred.MapTask: Spilling map output
+17/04/23 20:28:05 INFO mapred.MapTask: bufstart = 0; bufend = 58951928; bufvoid = 104857600
+17/04/23 20:28:05 INFO mapred.MapTask: kvstart = 26214396(104857584); kvend = 19980856(79923424); length = 6233541/6553600
+17/04/23 20:28:05 INFO mapred.MapTask: (EQUATOR) 65282936 kvi 16320728(65282912)
+17/04/23 20:28:10 INFO mapred.MapTask: Finished spill 0
+17/04/23 20:28:10 INFO mapred.MapTask: (RESET) equator 65282936 kv 16320728(65282912) kvi 14737988(58951952)
+17/04/23 20:28:10 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:28:10 INFO mapred.MapTask: Spilling map output
+17/04/23 20:28:10 INFO mapred.MapTask: bufstart = 65282936; bufend = 18750103; bufvoid = 104857584
+17/04/23 20:28:10 INFO mapred.MapTask: kvstart = 16320728(65282912); kvend = 9930404(39721616); length = 6390325/6553600
+17/04/23 20:28:10 INFO mapred.MapTask: (EQUATOR) 25081111 kvi 6270272(25081088)
+17/04/23 20:28:11 INFO mapreduce.Job:  map 1% reduce 0%
+17/04/23 20:28:13 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:28:14 INFO mapreduce.Job:  map 3% reduce 0%
+17/04/23 20:28:15 INFO mapred.MapTask: Finished spill 1
+17/04/23 20:28:15 INFO mapred.MapTask: (RESET) equator 25081111 kv 6270272(25081088) kvi 4697412(18789648)
+17/04/23 20:28:15 INFO mapred.MapTask: Spilling map output
+17/04/23 20:28:15 INFO mapred.MapTask: bufstart = 25081111; bufend = 83140250; bufvoid = 104857600
+17/04/23 20:28:15 INFO mapred.MapTask: kvstart = 6270272(25081088); kvend = 26027940(104111760); length = 6456733/6553600
+17/04/23 20:28:15 INFO mapred.MapTask: (EQUATOR) 89593002 kvi 22398244(89592976)
+17/04/23 20:28:16 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:28:17 INFO mapreduce.Job:  map 4% reduce 0%
+17/04/23 20:28:19 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:28:20 INFO mapred.MapTask: Finished spill 2
+17/04/23 20:28:20 INFO mapred.MapTask: (RESET) equator 89593002 kv 22398244(89592976) kvi 20785068(83140272)
+17/04/23 20:28:20 INFO mapred.MapTask: Spilling map output
+17/04/23 20:28:20 INFO mapred.MapTask: bufstart = 89593002; bufend = 42761331; bufvoid = 104857590
+17/04/23 20:28:20 INFO mapred.MapTask: kvstart = 22398244(89592976); kvend = 15933216(63732864); length = 6465029/6553600
+17/04/23 20:28:20 INFO mapred.MapTask: (EQUATOR) 49214099 kvi 12303520(49214080)
+17/04/23 20:28:22 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:28:23 INFO mapreduce.Job:  map 5% reduce 0%
+17/04/23 20:28:25 INFO mapred.MapTask: Finished spill 3
+17/04/23 20:28:25 INFO mapred.MapTask: (RESET) equator 49214099 kv 12303520(49214080) kvi 10690340(42761360)
+17/04/23 20:28:25 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:28:25 INFO mapred.MapTask: Spilling map output
+17/04/23 20:28:25 INFO mapred.MapTask: bufstart = 49214099; bufend = 2300330; bufvoid = 104857581
+17/04/23 20:28:25 INFO mapred.MapTask: kvstart = 12303520(49214080); kvend = 5817964(23271856); length = 6485557/6553600
+17/04/23 20:28:25 INFO mapred.MapTask: (EQUATOR) 8753098 kvi 2188268(8753072)
+17/04/23 20:28:26 INFO mapreduce.Job:  map 6% reduce 0%
+17/04/23 20:28:28 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:28:30 INFO mapred.MapTask: Finished spill 4
+17/04/23 20:28:30 INFO mapred.MapTask: (RESET) equator 8753098 kv 2188268(8753072) kvi 575088(2300352)
+17/04/23 20:28:30 INFO mapred.MapTask: Spilling map output
+17/04/23 20:28:30 INFO mapred.MapTask: bufstart = 8753098; bufend = 65679915; bufvoid = 104857600
+17/04/23 20:28:30 INFO mapred.MapTask: kvstart = 2188268(8753072); kvend = 21662856(86651424); length = 6739813/6553600
+17/04/23 20:28:30 INFO mapred.MapTask: (EQUATOR) 72259195 kvi 18064792(72259168)
+17/04/23 20:28:31 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:28:32 INFO mapreduce.Job:  map 7% reduce 0%
+17/04/23 20:28:34 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:28:35 INFO mapred.MapTask: Finished spill 5
+17/04/23 20:28:35 INFO mapred.MapTask: (RESET) equator 72259195 kv 18064792(72259168) kvi 16419984(65679936)
+17/04/23 20:28:36 INFO mapred.MapTask: Spilling map output
+17/04/23 20:28:36 INFO mapred.MapTask: bufstart = 72259195; bufend = 24043014; bufvoid = 104857585
+17/04/23 20:28:36 INFO mapred.MapTask: kvstart = 18064792(72259168); kvend = 11253628(45014512); length = 6811165/6553600
+17/04/23 20:28:36 INFO mapred.MapTask: (EQUATOR) 30622294 kvi 7655568(30622272)
+17/04/23 20:28:37 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:28:40 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:28:41 INFO mapred.MapTask: Finished spill 6
+17/04/23 20:28:41 INFO mapred.MapTask: (RESET) equator 30622294 kv 7655568(30622272) kvi 6167992(24671968)
+17/04/23 20:28:42 INFO mapred.MapTask: Spilling map output
+17/04/23 20:28:42 INFO mapred.MapTask: bufstart = 30622294; bufend = 89935177; bufvoid = 104857600
+17/04/23 20:28:42 INFO mapred.MapTask: kvstart = 7655568(30622272); kvend = 1512268(6049072); length = 6143301/6553600
+17/04/23 20:28:42 INFO mapred.MapTask: (EQUATOR) 96514457 kvi 24128608(96514432)
+17/04/23 20:28:43 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:28:44 INFO mapreduce.Job:  map 8% reduce 0%
+17/04/23 20:28:46 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:28:46 INFO mapred.MapTask: Finished spill 7
+17/04/23 20:28:46 INFO mapred.MapTask: (RESET) equator 96514457 kv 24128608(96514432) kvi 22578216(90312864)
+17/04/23 20:28:47 INFO mapred.MapTask: Spilling map output
+17/04/23 20:28:47 INFO mapred.MapTask: bufstart = 96514457; bufend = 49543646; bufvoid = 104857600
+17/04/23 20:28:47 INFO mapred.MapTask: kvstart = 24128608(96514432); kvend = 17628788(70515152); length = 6499821/6553600
+17/04/23 20:28:47 INFO mapred.MapTask: (EQUATOR) 56122926 kvi 14030724(56122896)
+17/04/23 20:28:49 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:28:50 INFO mapreduce.Job:  map 9% reduce 0%
+17/04/23 20:28:51 INFO mapred.MapTask: Finished spill 8
+17/04/23 20:28:51 INFO mapred.MapTask: (RESET) equator 56122926 kv 14030724(56122896) kvi 12385916(49543664)
+17/04/23 20:28:52 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:28:52 INFO mapred.MapTask: Spilling map output
+17/04/23 20:28:52 INFO mapred.MapTask: bufstart = 56122926; bufend = 8312685; bufvoid = 104857599
+17/04/23 20:28:52 INFO mapred.MapTask: kvstart = 14030724(56122896); kvend = 7321052(29284208); length = 6709673/6553600
+17/04/23 20:28:52 INFO mapred.MapTask: (EQUATOR) 14891981 kvi 3722988(14891952)
+17/04/23 20:28:53 INFO mapreduce.Job:  map 10% reduce 0%
+17/04/23 20:28:55 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:28:56 INFO mapreduce.Job:  map 11% reduce 0%
+17/04/23 20:28:57 INFO mapred.MapTask: Finished spill 9
+17/04/23 20:28:57 INFO mapred.MapTask: (RESET) equator 14891981 kv 3722988(14891952) kvi 2078176(8312704)
+17/04/23 20:28:58 INFO mapred.MapTask: Spilling map output
+17/04/23 20:28:58 INFO mapred.MapTask: bufstart = 14891981; bufend = 72060965; bufvoid = 104857600
+17/04/23 20:28:58 INFO mapred.MapTask: kvstart = 3722988(14891952); kvend = 23258124(93032496); length = 6679265/6553600
+17/04/23 20:28:58 INFO mapred.MapTask: (EQUATOR) 78640261 kvi 19660060(78640240)
+17/04/23 20:28:58 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:28:59 INFO mapreduce.Job:  map 12% reduce 0%
+17/04/23 20:29:01 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:29:02 INFO mapred.MapTask: Finished spill 10
+17/04/23 20:29:02 INFO mapred.MapTask: (RESET) equator 78640261 kv 19660060(78640240) kvi 18037784(72151136)
+17/04/23 20:29:03 INFO mapred.MapTask: Spilling map output
+17/04/23 20:29:03 INFO mapred.MapTask: bufstart = 78640261; bufend = 31766248; bufvoid = 104857595
+17/04/23 20:29:03 INFO mapred.MapTask: kvstart = 19660060(78640240); kvend = 13184440(52737760); length = 6475621/6553600
+17/04/23 20:29:03 INFO mapred.MapTask: (EQUATOR) 38345528 kvi 9586376(38345504)
+17/04/23 20:29:04 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:29:05 INFO mapreduce.Job:  map 13% reduce 0%
+17/04/23 20:29:07 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:29:07 INFO mapred.MapTask: Finished spill 11
+17/04/23 20:29:07 INFO mapred.MapTask: (RESET) equator 38345528 kv 9586376(38345504) kvi 8016832(32067328)
+17/04/23 20:29:08 INFO mapred.MapTask: Spilling map output
+17/04/23 20:29:08 INFO mapred.MapTask: bufstart = 38345528; bufend = 96063010; bufvoid = 104857600
+17/04/23 20:29:08 INFO mapred.MapTask: kvstart = 9586376(38345504); kvend = 3044228(12176912); length = 6542149/6553600
+17/04/23 20:29:08 INFO mapred.MapTask: (EQUATOR) 102642290 kvi 25660568(102642272)
+17/04/23 20:29:10 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:29:11 INFO mapreduce.Job:  map 14% reduce 0%
+17/04/23 20:29:12 INFO mapred.MapTask: Finished spill 12
+17/04/23 20:29:12 INFO mapred.MapTask: (RESET) equator 102642290 kv 25660568(102642272) kvi 24015760(96063040)
+17/04/23 20:29:13 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:29:13 INFO mapred.MapTask: Spilling map output
+17/04/23 20:29:13 INFO mapred.MapTask: bufstart = 102642290; bufend = 55773729; bufvoid = 104857600
+17/04/23 20:29:13 INFO mapred.MapTask: kvstart = 25660568(102642272); kvend = 19186316(76745264); length = 6474253/6553600
+17/04/23 20:29:13 INFO mapred.MapTask: (EQUATOR) 62353025 kvi 15588252(62353008)
+17/04/23 20:29:16 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:29:17 INFO mapreduce.Job:  map 15% reduce 0%
+17/04/23 20:29:17 INFO mapred.MapTask: Finished spill 13
+17/04/23 20:29:17 INFO mapred.MapTask: (RESET) equator 62353025 kv 15588252(62353008) kvi 14229392(56917568)
+17/04/23 20:29:18 INFO mapred.MapTask: Spilling map output
+17/04/23 20:29:18 INFO mapred.MapTask: bufstart = 62353025; bufend = 17921196; bufvoid = 104857588
+17/04/23 20:29:18 INFO mapred.MapTask: kvstart = 15588252(62353008); kvend = 9723172(38892688); length = 5865081/6553600
+17/04/23 20:29:18 INFO mapred.MapTask: (EQUATOR) 24500476 kvi 6125112(24500448)
+17/04/23 20:29:19 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:29:20 INFO mapreduce.Job:  map 16% reduce 0%
+17/04/23 20:29:22 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:29:22 INFO mapred.MapTask: Finished spill 14
+17/04/23 20:29:22 INFO mapred.MapTask: (RESET) equator 24500476 kv 6125112(24500448) kvi 4480304(17921216)
+17/04/23 20:29:23 INFO mapred.MapTask: Spilling map output
+17/04/23 20:29:23 INFO mapred.MapTask: bufstart = 24500476; bufend = 82230141; bufvoid = 104857600
+17/04/23 20:29:23 INFO mapred.MapTask: kvstart = 6125112(24500448); kvend = 25800412(103201648); length = 6539101/6553600
+17/04/23 20:29:23 INFO mapred.MapTask: (EQUATOR) 88809421 kvi 22202348(88809392)
+17/04/23 20:29:25 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:29:26 INFO mapreduce.Job:  map 18% reduce 0%
+17/04/23 20:29:28 INFO mapred.MapTask: Finished spill 15
+17/04/23 20:29:28 INFO mapred.MapTask: (RESET) equator 88809421 kv 22202348(88809392) kvi 20557684(82230736)
+17/04/23 20:29:28 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:29:28 INFO mapred.MapTask: Spilling map output
+17/04/23 20:29:28 INFO mapred.MapTask: bufstart = 88809421; bufend = 41631894; bufvoid = 104857582
+17/04/23 20:29:28 INFO mapred.MapTask: kvstart = 22202348(88809392); kvend = 15650848(62603392); length = 6551501/6553600
+17/04/23 20:29:28 INFO mapred.MapTask: (EQUATOR) 48211174 kvi 12052788(48211152)
+17/04/23 20:29:31 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:29:32 INFO mapreduce.Job:  map 19% reduce 0%
+17/04/23 20:29:33 INFO mapred.MapTask: Finished spill 16
+17/04/23 20:29:33 INFO mapred.MapTask: (RESET) equator 48211174 kv 12052788(48211152) kvi 10407980(41631920)
+17/04/23 20:29:33 INFO mapred.MapTask: Spilling map output
+17/04/23 20:29:33 INFO mapred.MapTask: bufstart = 48211174; bufend = 1400496; bufvoid = 104857580
+17/04/23 20:29:33 INFO mapred.MapTask: kvstart = 12052788(48211152); kvend = 5593008(22372032); length = 6459781/6553600
+17/04/23 20:29:33 INFO mapred.MapTask: (EQUATOR) 7979792 kvi 1994944(7979776)
+17/04/23 20:29:34 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:29:35 INFO mapreduce.Job:  map 21% reduce 0%
+17/04/23 20:29:37 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:29:37 INFO mapred.MapTask: Finished spill 17
+17/04/23 20:29:37 INFO mapred.MapTask: (RESET) equator 7979792 kv 1994944(7979776) kvi 416708(1666832)
+17/04/23 20:29:38 INFO mapred.MapTask: Spilling map output
+17/04/23 20:29:38 INFO mapred.MapTask: bufstart = 7979792; bufend = 66147338; bufvoid = 104857600
+17/04/23 20:29:38 INFO mapred.MapTask: kvstart = 1994944(7979776); kvend = 21779708(87118832); length = 6429637/6553600
+17/04/23 20:29:38 INFO mapred.MapTask: (EQUATOR) 72726618 kvi 18181648(72726592)
+17/04/23 20:29:40 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:29:41 INFO mapreduce.Job:  map 22% reduce 0%
+17/04/23 20:29:42 INFO mapred.MapTask: Finished spill 18
+17/04/23 20:29:42 INFO mapred.MapTask: (RESET) equator 72726618 kv 18181648(72726592) kvi 16558256(66233024)
+17/04/23 20:29:43 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:29:43 INFO mapred.MapTask: Spilling map output
+17/04/23 20:29:43 INFO mapred.MapTask: bufstart = 72726618; bufend = 25505146; bufvoid = 104857585
+17/04/23 20:29:43 INFO mapred.MapTask: kvstart = 18181648(72726592); kvend = 11619164(46476656); length = 6562485/6553600
+17/04/23 20:29:43 INFO mapred.MapTask: (EQUATOR) 32084426 kvi 8021100(32084400)
+17/04/23 20:29:46 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:29:47 INFO mapreduce.Job:  map 23% reduce 0%
+17/04/23 20:29:47 INFO mapred.MapTask: Finished spill 19
+17/04/23 20:29:47 INFO mapred.MapTask: (RESET) equator 32084426 kv 8021100(32084400) kvi 6376292(25505168)
+17/04/23 20:29:48 INFO mapred.MapTask: Spilling map output
+17/04/23 20:29:48 INFO mapred.MapTask: bufstart = 32084426; bufend = 90784547; bufvoid = 104857600
+17/04/23 20:29:48 INFO mapred.MapTask: kvstart = 8021100(32084400); kvend = 1724608(6898432); length = 6296493/6553600
+17/04/23 20:29:48 INFO mapred.MapTask: (EQUATOR) 97363827 kvi 24340952(97363808)
+17/04/23 20:29:49 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:29:50 INFO mapreduce.Job:  map 25% reduce 0%
+17/04/23 20:29:52 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:29:52 INFO mapred.MapTask: Finished spill 20
+17/04/23 20:29:52 INFO mapred.MapTask: (RESET) equator 97363827 kv 24340952(97363808) kvi 22725468(90901872)
+17/04/23 20:29:53 INFO mapred.MapTask: Spilling map output
+17/04/23 20:29:53 INFO mapred.MapTask: bufstart = 97363827; bufend = 50438934; bufvoid = 104857600
+17/04/23 20:29:53 INFO mapred.MapTask: kvstart = 24340952(97363808); kvend = 17852608(71410432); length = 6488345/6553600
+17/04/23 20:29:53 INFO mapred.MapTask: (EQUATOR) 57018214 kvi 14254548(57018192)
+17/04/23 20:29:55 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:29:56 INFO mapreduce.Job:  map 27% reduce 0%
+17/04/23 20:29:57 INFO mapred.MapTask: Finished spill 21
+17/04/23 20:29:57 INFO mapred.MapTask: (RESET) equator 57018214 kv 14254548(57018192) kvi 12656656(50626624)
+17/04/23 20:29:58 INFO mapred.MapTask: Spilling map output
+17/04/23 20:29:58 INFO mapred.MapTask: bufstart = 57018214; bufend = 10008730; bufvoid = 104857600
+17/04/23 20:29:58 INFO mapred.MapTask: kvstart = 14254548(57018192); kvend = 7745060(30980240); length = 6509489/6553600
+17/04/23 20:29:58 INFO mapred.MapTask: (EQUATOR) 16588010 kvi 4146996(16587984)
+17/04/23 20:29:58 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:29:59 INFO mapreduce.Job:  map 29% reduce 0%
+17/04/23 20:30:01 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:30:02 INFO mapred.MapTask: Finished spill 22
+17/04/23 20:30:02 INFO mapred.MapTask: (RESET) equator 16588010 kv 4146996(16587984) kvi 2566112(10264448)
+17/04/23 20:30:03 INFO mapred.MapTask: Spilling map output
+17/04/23 20:30:03 INFO mapred.MapTask: bufstart = 16588010; bufend = 74742510; bufvoid = 104857600
+17/04/23 20:30:03 INFO mapred.MapTask: kvstart = 4146996(16587984); kvend = 23928508(95714032); length = 6432889/6553600
+17/04/23 20:30:03 INFO mapred.MapTask: (EQUATOR) 81321806 kvi 20330444(81321776)
+17/04/23 20:30:04 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:30:05 INFO mapreduce.Job:  map 30% reduce 0%
+17/04/23 20:30:07 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:30:08 INFO mapred.MapTask: Finished spill 23
+17/04/23 20:30:08 INFO mapred.MapTask: (RESET) equator 81321806 kv 20330444(81321776) kvi 18773016(75092064)
+17/04/23 20:30:08 INFO mapred.MapTask: Spilling map output
+17/04/23 20:30:08 INFO mapred.MapTask: bufstart = 81321806; bufend = 35313798; bufvoid = 104857597
+17/04/23 20:30:08 INFO mapred.MapTask: kvstart = 20330444(81321776); kvend = 14071332(56285328); length = 6259113/6553600
+17/04/23 20:30:08 INFO mapred.MapTask: (EQUATOR) 41893094 kvi 10473268(41893072)
+17/04/23 20:30:10 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:30:11 INFO mapreduce.Job:  map 32% reduce 0%
+17/04/23 20:30:13 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:30:13 INFO mapred.MapTask: Finished spill 24
+17/04/23 20:30:13 INFO mapred.MapTask: (RESET) equator 41893094 kv 10473268(41893072) kvi 9088560(36354240)
+17/04/23 20:30:14 INFO mapred.MapTask: Spilling map output
+17/04/23 20:30:14 INFO mapred.MapTask: bufstart = 41893094; bufend = 101099378; bufvoid = 104857600
+17/04/23 20:30:14 INFO mapred.MapTask: kvstart = 10473268(41893072); kvend = 4303316(17213264); length = 6169953/6553600
+17/04/23 20:30:14 INFO mapred.MapTask: (EQUATOR) 2694530 kvi 673628(2694512)
+17/04/23 20:30:16 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:30:17 INFO mapreduce.Job:  map 34% reduce 0%
+17/04/23 20:30:18 INFO mapred.MapTask: Finished spill 25
+17/04/23 20:30:18 INFO mapred.MapTask: (RESET) equator 2694530 kv 673628(2694512) kvi 25274852(101099408)
+17/04/23 20:30:19 INFO mapred.MapTask: Spilling map output
+17/04/23 20:30:19 INFO mapred.MapTask: bufstart = 2694530; bufend = 60521482; bufvoid = 104857600
+17/04/23 20:30:19 INFO mapred.MapTask: kvstart = 673628(2694512); kvend = 20373244(81492976); length = 6514785/6553600
+17/04/23 20:30:19 INFO mapred.MapTask: (EQUATOR) 66974234 kvi 16743552(66974208)
+17/04/23 20:30:19 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:30:20 INFO mapreduce.Job:  map 35% reduce 0%
+17/04/23 20:30:22 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:30:23 INFO mapred.MapTask: Finished spill 26
+17/04/23 20:30:23 INFO mapred.MapTask: (RESET) equator 66974234 kv 16743552(66974208) kvi 15131708(60526832)
+17/04/23 20:30:23 INFO mapred.MapTask: Spilling map output
+17/04/23 20:30:23 INFO mapred.MapTask: bufstart = 66974234; bufend = 19932898; bufvoid = 104857587
+17/04/23 20:30:23 INFO mapred.MapTask: kvstart = 16743552(66974208); kvend = 10226096(40904384); length = 6517457/6553600
+17/04/23 20:30:23 INFO mapred.MapTask: (EQUATOR) 26512178 kvi 6628040(26512160)
+17/04/23 20:30:25 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:30:26 INFO mapreduce.Job:  map 37% reduce 0%
+17/04/23 20:30:28 INFO mapred.MapTask: Finished spill 27
+17/04/23 20:30:28 INFO mapred.MapTask: (RESET) equator 26512178 kv 6628040(26512160) kvi 4992476(19969904)
+17/04/23 20:30:28 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:30:28 INFO mapred.MapTask: Spilling map output
+17/04/23 20:30:28 INFO mapred.MapTask: bufstart = 26512178; bufend = 85881982; bufvoid = 104857600
+17/04/23 20:30:28 INFO mapred.MapTask: kvstart = 6628040(26512160); kvend = 498964(1995856); length = 6129077/6553600
+17/04/23 20:30:28 INFO mapred.MapTask: (EQUATOR) 92334734 kvi 23083676(92334704)
+17/04/23 20:30:31 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:30:32 INFO mapreduce.Job:  map 39% reduce 0%
+17/04/23 20:30:33 INFO mapred.MapTask: Finished spill 28
+17/04/23 20:30:33 INFO mapred.MapTask: (RESET) equator 92334734 kv 23083676(92334704) kvi 21756672(87026688)
+17/04/23 20:30:33 INFO mapred.MapTask: Spilling map output
+17/04/23 20:30:33 INFO mapred.MapTask: bufstart = 92334734; bufend = 46709952; bufvoid = 104857589
+17/04/23 20:30:33 INFO mapred.MapTask: kvstart = 23083676(92334704); kvend = 16920368(67681472); length = 6163309/6553600
+17/04/23 20:30:33 INFO mapred.MapTask: (EQUATOR) 53162720 kvi 13290676(53162704)
+17/04/23 20:30:34 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:30:35 INFO mapreduce.Job:  map 40% reduce 0%
+17/04/23 20:30:37 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:30:38 INFO mapred.MapTask: Finished spill 29
+17/04/23 20:30:38 INFO mapred.MapTask: (RESET) equator 53162720 kv 13290676(53162704) kvi 11677492(46709968)
+17/04/23 20:30:39 INFO mapred.MapTask: Spilling map output
+17/04/23 20:30:39 INFO mapred.MapTask: bufstart = 53162720; bufend = 6022640; bufvoid = 104857578
+17/04/23 20:30:39 INFO mapred.MapTask: kvstart = 13290676(53162704); kvend = 6748532(26994128); length = 6542145/6553600
+17/04/23 20:30:39 INFO mapred.MapTask: (EQUATOR) 12475392 kvi 3118844(12475376)
+17/04/23 20:30:40 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:30:41 INFO mapreduce.Job:  map 42% reduce 0%
+17/04/23 20:30:43 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:30:43 INFO mapred.MapTask: Finished spill 30
+17/04/23 20:30:43 INFO mapred.MapTask: (RESET) equator 12475392 kv 3118844(12475376) kvi 1505664(6022656)
+17/04/23 20:30:44 INFO mapred.MapTask: Spilling map output
+17/04/23 20:30:44 INFO mapred.MapTask: bufstart = 12475392; bufend = 69981975; bufvoid = 104857600
+17/04/23 20:30:44 INFO mapred.MapTask: kvstart = 3118844(12475376); kvend = 22738368(90953472); length = 6594877/6553600
+17/04/23 20:30:44 INFO mapred.MapTask: (EQUATOR) 76434727 kvi 19108676(76434704)
+17/04/23 20:30:46 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:30:47 INFO mapreduce.Job:  map 44% reduce 0%
+17/04/23 20:30:49 INFO mapred.MapTask: Finished spill 31
+17/04/23 20:30:49 INFO mapred.MapTask: (RESET) equator 76434727 kv 19108676(76434704) kvi 17648468(70593872)
+17/04/23 20:30:49 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:30:49 INFO mapred.MapTask: Spilling map output
+17/04/23 20:30:49 INFO mapred.MapTask: bufstart = 76434727; bufend = 30334699; bufvoid = 104857580
+17/04/23 20:30:49 INFO mapred.MapTask: kvstart = 19108676(76434704); kvend = 12826548(51306192); length = 6282129/6553600
+17/04/23 20:30:49 INFO mapred.MapTask: (EQUATOR) 36787451 kvi 9196856(36787424)
+17/04/23 20:30:52 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:30:53 INFO mapreduce.Job:  map 45% reduce 0%
+17/04/23 20:30:54 INFO mapred.MapTask: Finished spill 32
+17/04/23 20:30:54 INFO mapred.MapTask: (RESET) equator 36787451 kv 9196856(36787424) kvi 7583680(30334720)
+17/04/23 20:30:54 INFO mapred.MapTask: Spilling map output
+17/04/23 20:30:54 INFO mapred.MapTask: bufstart = 36787451; bufend = 93878666; bufvoid = 104857600
+17/04/23 20:30:54 INFO mapred.MapTask: kvstart = 9196856(36787424); kvend = 2498140(9992560); length = 6698717/6553600
+17/04/23 20:30:54 INFO mapred.MapTask: (EQUATOR) 100331418 kvi 25082848(100331392)
+17/04/23 20:30:55 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:30:56 INFO mapreduce.Job:  map 46% reduce 0%
+17/04/23 20:30:58 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:30:59 INFO mapred.MapTask: Finished spill 33
+17/04/23 20:30:59 INFO mapred.MapTask: (RESET) equator 100331418 kv 25082848(100331392) kvi 23469672(93878688)
+17/04/23 20:31:00 INFO mapred.MapTask: Spilling map output
+17/04/23 20:31:00 INFO mapred.MapTask: bufstart = 100331418; bufend = 52541108; bufvoid = 104857600
+17/04/23 20:31:00 INFO mapred.MapTask: kvstart = 25082848(100331392); kvend = 18378160(73512640); length = 6704689/6553600
+17/04/23 20:31:00 INFO mapred.MapTask: (EQUATOR) 58993876 kvi 14748464(58993856)
+17/04/23 20:31:01 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:31:02 INFO mapreduce.Job:  map 47% reduce 0%
+17/04/23 20:31:04 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:31:05 INFO mapred.MapTask: Finished spill 34
+17/04/23 20:31:05 INFO mapred.MapTask: (RESET) equator 58993876 kv 14748464(58993856) kvi 13135284(52541136)
+17/04/23 20:31:05 INFO mapred.MapTask: Spilling map output
+17/04/23 20:31:05 INFO mapred.MapTask: bufstart = 58993876; bufend = 11723098; bufvoid = 104857596
+17/04/23 20:31:05 INFO mapred.MapTask: kvstart = 14748464(58993856); kvend = 8173656(32694624); length = 6574809/6553600
+17/04/23 20:31:05 INFO mapred.MapTask: (EQUATOR) 18302394 kvi 4575592(18302368)
+17/04/23 20:31:07 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:31:08 INFO mapreduce.Job:  map 49% reduce 0%
+17/04/23 20:31:10 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:31:10 INFO mapred.MapTask: Finished spill 35
+17/04/23 20:31:10 INFO mapred.MapTask: (RESET) equator 18302394 kv 4575592(18302368) kvi 2930780(11723120)
+17/04/23 20:31:11 INFO mapred.MapTask: Spilling map output
+17/04/23 20:31:11 INFO mapred.MapTask: bufstart = 18302394; bufend = 75918751; bufvoid = 104857600
+17/04/23 20:31:11 INFO mapred.MapTask: kvstart = 4575592(18302368); kvend = 24222564(96890256); length = 6567429/6553600
+17/04/23 20:31:11 INFO mapred.MapTask: (EQUATOR) 82498031 kvi 20624500(82498000)
+17/04/23 20:31:13 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:31:14 INFO mapreduce.Job:  map 50% reduce 0%
+17/04/23 20:31:15 INFO mapred.MapTask: Finished spill 36
+17/04/23 20:31:15 INFO mapred.MapTask: (RESET) equator 82498031 kv 20624500(82498000) kvi 19233336(76933344)
+17/04/23 20:31:16 INFO mapred.MapTask: Spilling map output
+17/04/23 20:31:16 INFO mapred.MapTask: bufstart = 82498031; bufend = 37835634; bufvoid = 104857600
+17/04/23 20:31:16 INFO mapred.MapTask: kvstart = 20624500(82498000); kvend = 14701792(58807168); length = 5922709/6553600
+17/04/23 20:31:16 INFO mapred.MapTask: (EQUATOR) 44288402 kvi 11072096(44288384)
+17/04/23 20:31:16 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:31:17 INFO mapreduce.Job:  map 52% reduce 0%
+17/04/23 20:31:19 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:31:20 INFO mapred.MapTask: Finished spill 37
+17/04/23 20:31:20 INFO mapred.MapTask: (RESET) equator 44288402 kv 11072096(44288384) kvi 9458916(37835664)
+17/04/23 20:31:21 INFO mapred.MapTask: Spilling map output
+17/04/23 20:31:21 INFO mapred.MapTask: bufstart = 44288402; bufend = 102095464; bufvoid = 104857600
+17/04/23 20:31:21 INFO mapred.MapTask: kvstart = 11072096(44288384); kvend = 4552344(18209376); length = 6519753/6553600
+17/04/23 20:31:21 INFO mapred.MapTask: (EQUATOR) 3690632 kvi 922652(3690608)
+17/04/23 20:31:22 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:31:23 INFO mapreduce.Job:  map 53% reduce 0%
+17/04/23 20:31:25 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:31:25 INFO mapred.MapTask: Finished spill 38
+17/04/23 20:31:25 INFO mapred.MapTask: (RESET) equator 3690632 kv 922652(3690608) kvi 25523872(102095488)
+17/04/23 20:31:26 INFO mapred.MapTask: Spilling map output
+17/04/23 20:31:26 INFO mapred.MapTask: bufstart = 3690632; bufend = 60896972; bufvoid = 104857600
+17/04/23 20:31:26 INFO mapred.MapTask: kvstart = 922652(3690608); kvend = 20467120(81868480); length = 6669933/6553600
+17/04/23 20:31:26 INFO mapred.MapTask: (EQUATOR) 67349724 kvi 16837424(67349696)
+17/04/23 20:31:28 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:31:29 INFO mapreduce.Job:  map 55% reduce 0%
+17/04/23 20:31:31 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:31:34 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:31:37 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:31:39 INFO mapred.MapTask: Finished spill 39
+17/04/23 20:31:39 INFO mapred.MapTask: (RESET) equator 67349724 kv 16837424(67349696) kvi 15224248(60896992)
+17/04/23 20:31:40 INFO mapred.MapTask: Spilling map output
+17/04/23 20:31:40 INFO mapred.MapTask: bufstart = 67349724; bufend = 19896658; bufvoid = 104857580
+17/04/23 20:31:40 INFO mapred.MapTask: kvstart = 16837424(67349696); kvend = 10217040(40868160); length = 6620385/6553600
+17/04/23 20:31:40 INFO mapred.MapTask: (EQUATOR) 26475938 kvi 6618980(26475920)
+17/04/23 20:31:43 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:31:44 INFO mapreduce.Job:  map 56% reduce 0%
+17/04/23 20:31:45 INFO mapred.MapTask: Finished spill 40
+17/04/23 20:31:45 INFO mapred.MapTask: (RESET) equator 26475938 kv 6618980(26475920) kvi 5008560(20034240)
+17/04/23 20:31:46 INFO mapred.MapTask: Spilling map output
+17/04/23 20:31:46 INFO mapred.MapTask: bufstart = 26475938; bufend = 85429408; bufvoid = 104857600
+17/04/23 20:31:46 INFO mapred.MapTask: kvstart = 6618980(26475920); kvend = 385832(1543328); length = 6233149/6553600
+17/04/23 20:31:46 INFO mapred.MapTask: (EQUATOR) 91882176 kvi 22970540(91882160)
+17/04/23 20:31:46 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:31:47 INFO mapreduce.Job:  map 58% reduce 0%
+17/04/23 20:31:49 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:31:50 INFO mapred.MapTask: Finished spill 41
+17/04/23 20:31:50 INFO mapred.MapTask: (RESET) equator 91882176 kv 22970540(91882160) kvi 21395632(85582528)
+17/04/23 20:31:51 INFO mapred.MapTask: Spilling map output
+17/04/23 20:31:51 INFO mapred.MapTask: bufstart = 91882176; bufend = 45314931; bufvoid = 104857600
+17/04/23 20:31:51 INFO mapred.MapTask: kvstart = 22970540(91882160); kvend = 16571616(66286464); length = 6398925/6553600
+17/04/23 20:31:51 INFO mapred.MapTask: (EQUATOR) 51767699 kvi 12941920(51767680)
+17/04/23 20:31:52 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:31:53 INFO mapreduce.Job:  map 60% reduce 0%
+17/04/23 20:31:55 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:31:56 INFO mapred.MapTask: Finished spill 42
+17/04/23 20:31:56 INFO mapred.MapTask: (RESET) equator 51767699 kv 12941920(51767680) kvi 11328740(45314960)
+17/04/23 20:31:57 INFO mapred.MapTask: Spilling map output
+17/04/23 20:31:57 INFO mapred.MapTask: bufstart = 51767699; bufend = 4836915; bufvoid = 104857588
+17/04/23 20:31:57 INFO mapred.MapTask: kvstart = 12941920(51767680); kvend = 6452104(25808416); length = 6489817/6553600
+17/04/23 20:31:57 INFO mapred.MapTask: (EQUATOR) 11289667 kvi 2822412(11289648)
+17/04/23 20:31:58 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:31:59 INFO mapreduce.Job:  map 61% reduce 0%
+17/04/23 20:32:01 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:32:02 INFO mapred.MapTask: Finished spill 43
+17/04/23 20:32:02 INFO mapred.MapTask: (RESET) equator 11289667 kv 2822412(11289648) kvi 1213120(4852480)
+17/04/23 20:32:02 INFO mapred.MapTask: Spilling map output
+17/04/23 20:32:02 INFO mapred.MapTask: bufstart = 11289667; bufend = 69527926; bufvoid = 104857600
+17/04/23 20:32:02 INFO mapred.MapTask: kvstart = 2822412(11289648); kvend = 22624864(90499456); length = 6411949/6553600
+17/04/23 20:32:02 INFO mapred.MapTask: (EQUATOR) 75980694 kvi 18995168(75980672)
+17/04/23 20:32:04 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:32:05 INFO mapreduce.Job:  map 63% reduce 0%
+17/04/23 20:32:07 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:32:07 INFO mapred.MapTask: Finished spill 44
+17/04/23 20:32:07 INFO mapred.MapTask: (RESET) equator 75980694 kv 18995168(75980672) kvi 17493204(69972816)
+17/04/23 20:32:08 INFO mapred.MapTask: Spilling map output
+17/04/23 20:32:08 INFO mapred.MapTask: bufstart = 75980694; bufend = 30120941; bufvoid = 104857600
+17/04/23 20:32:08 INFO mapred.MapTask: kvstart = 18995168(75980672); kvend = 12773116(51092464); length = 6222053/6553600
+17/04/23 20:32:08 INFO mapred.MapTask: (EQUATOR) 36573709 kvi 9143420(36573680)
+17/04/23 20:32:10 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:32:11 INFO mapreduce.Job:  map 65% reduce 0%
+17/04/23 20:32:12 INFO mapred.MapTask: Finished spill 45
+17/04/23 20:32:12 INFO mapred.MapTask: (RESET) equator 36573709 kv 9143420(36573680) kvi 7581908(30327632)
+17/04/23 20:32:13 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:32:13 INFO mapred.MapTask: Spilling map output
+17/04/23 20:32:13 INFO mapred.MapTask: bufstart = 36573709; bufend = 95185533; bufvoid = 104857600
+17/04/23 20:32:13 INFO mapred.MapTask: kvstart = 9143420(36573680); kvend = 2824864(11299456); length = 6318557/6553600
+17/04/23 20:32:13 INFO mapred.MapTask: (EQUATOR) 101638301 kvi 25409568(101638272)
+17/04/23 20:32:14 INFO mapreduce.Job:  map 66% reduce 0%
+17/04/23 20:32:16 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:32:17 INFO mapreduce.Job:  map 67% reduce 0%
+17/04/23 20:32:18 INFO mapred.MapTask: Finished spill 46
+17/04/23 20:32:18 INFO mapred.MapTask: (RESET) equator 101638301 kv 25409568(101638272) kvi 23865156(95460624)
+17/04/23 20:32:18 INFO mapred.LocalJobRunner: map > map
+17/04/23 20:32:18 INFO mapred.MapTask: Starting flush of map output
+17/04/23 20:32:18 INFO mapred.MapTask: Spilling map output
+17/04/23 20:32:18 INFO mapred.MapTask: bufstart = 101638301; bufend = 22437148; bufvoid = 104857598
+17/04/23 20:32:18 INFO mapred.MapTask: kvstart = 25409568(101638272); kvend = 22728432(90913728); length = 2681137/6553600
+17/04/23 20:32:19 INFO mapred.LocalJobRunner: map > sort
+17/04/23 20:32:20 INFO mapred.MapTask: Finished spill 47
+17/04/23 20:32:20 INFO mapred.Merger: Merging 48 sorted segments
+17/04/23 20:32:20 INFO mapred.Merger: Merging 3 intermediate segments out of a total of 48
+17/04/23 20:32:22 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:32:23 INFO mapred.Merger: Merging 10 intermediate segments out of a total of 46
+17/04/23 20:32:25 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:32:26 INFO mapreduce.Job:  map 68% reduce 0%
+17/04/23 20:32:28 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:32:29 INFO mapreduce.Job:  map 69% reduce 0%
+17/04/23 20:32:31 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:32:32 INFO mapreduce.Job:  map 70% reduce 0%
+17/04/23 20:32:34 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:32:37 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:32:38 INFO mapred.Merger: Merging 10 intermediate segments out of a total of 37
+17/04/23 20:32:38 INFO mapreduce.Job:  map 71% reduce 0%
+17/04/23 20:32:40 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:32:41 INFO mapreduce.Job:  map 72% reduce 0%
+17/04/23 20:32:43 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:32:46 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:32:47 INFO mapreduce.Job:  map 73% reduce 0%
+17/04/23 20:32:49 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:32:50 INFO mapreduce.Job:  map 74% reduce 0%
+17/04/23 20:32:52 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:32:53 INFO mapred.Merger: Merging 10 intermediate segments out of a total of 28
+17/04/23 20:32:53 INFO mapreduce.Job:  map 75% reduce 0%
+17/04/23 20:32:55 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:32:58 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:33:01 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:33:04 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:33:22 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:33:25 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:33:26 INFO mapreduce.Job:  map 76% reduce 0%
+17/04/23 20:33:28 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:33:31 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:33:34 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:33:37 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:33:40 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:33:43 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:33:46 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:33:47 INFO mapreduce.Job:  map 77% reduce 0%
+17/04/23 20:33:49 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:33:52 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:33:55 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:33:58 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:34:01 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:34:04 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:34:05 INFO mapreduce.Job:  map 78% reduce 0%
+17/04/23 20:34:07 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:34:10 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:34:13 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:34:16 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:34:19 INFO mapred.Merger: Merging 10 intermediate segments out of a total of 19
+17/04/23 20:34:19 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:34:22 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:34:23 INFO mapreduce.Job:  map 79% reduce 0%
+17/04/23 20:34:25 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:34:28 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:34:31 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:34:32 INFO mapreduce.Job:  map 80% reduce 0%
+17/04/23 20:34:34 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:34:37 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:34:38 INFO mapreduce.Job:  map 81% reduce 0%
+17/04/23 20:34:40 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:34:43 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:34:46 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:34:49 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:34:50 INFO mapreduce.Job:  map 82% reduce 0%
+17/04/23 20:34:52 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:34:55 INFO mapred.Merger: Down to the last merge-pass, with 10 segments left of total size: 2467877046 bytes
+17/04/23 20:34:55 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:34:58 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:34:59 INFO mapreduce.Job:  map 83% reduce 0%
+17/04/23 20:35:01 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:35:04 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:35:05 INFO mapreduce.Job:  map 84% reduce 0%
+17/04/23 20:35:07 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:35:10 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:35:13 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:35:16 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:35:17 INFO mapreduce.Job:  map 85% reduce 0%
+17/04/23 20:35:19 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:35:22 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:35:25 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:35:26 INFO mapreduce.Job:  map 86% reduce 0%
+17/04/23 20:35:28 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:35:31 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:35:34 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:35:37 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:35:38 INFO mapreduce.Job:  map 87% reduce 0%
+17/04/23 20:35:40 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:35:43 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:35:46 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:35:49 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:35:52 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:35:53 INFO mapreduce.Job:  map 88% reduce 0%
+17/04/23 20:35:55 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:35:58 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:36:01 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:36:04 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:36:05 INFO mapreduce.Job:  map 89% reduce 0%
+17/04/23 20:36:07 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:36:10 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:36:13 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:36:14 INFO mapreduce.Job:  map 90% reduce 0%
+17/04/23 20:36:16 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:36:19 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:36:22 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:36:25 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:36:26 INFO mapreduce.Job:  map 91% reduce 0%
+17/04/23 20:36:28 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:36:31 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:36:34 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:36:37 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:36:38 INFO mapreduce.Job:  map 92% reduce 0%
+17/04/23 20:36:40 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:36:43 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:36:46 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:36:47 INFO mapreduce.Job:  map 93% reduce 0%
+17/04/23 20:36:49 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:36:52 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:36:55 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:36:58 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:36:59 INFO mapreduce.Job:  map 94% reduce 0%
+17/04/23 20:37:01 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:37:04 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:37:07 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:37:10 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:37:11 INFO mapreduce.Job:  map 95% reduce 0%
+17/04/23 20:37:13 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:37:16 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:37:19 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:37:22 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:37:23 INFO mapreduce.Job:  map 96% reduce 0%
+17/04/23 20:37:25 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:37:28 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:37:31 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:37:34 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:37:37 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:37:38 INFO mapreduce.Job:  map 97% reduce 0%
+17/04/23 20:37:40 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:37:43 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:37:46 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:37:49 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:37:52 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:37:53 INFO mapreduce.Job:  map 98% reduce 0%
+17/04/23 20:37:55 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:37:58 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:38:01 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:38:04 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:38:05 INFO mapreduce.Job:  map 99% reduce 0%
+17/04/23 20:38:07 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:38:10 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:38:13 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:38:16 INFO mapred.LocalJobRunner: map > sort > 
+17/04/23 20:38:17 INFO mapreduce.Job:  map 100% reduce 0%
+17/04/23 20:38:19 INFO mapred.LocalJobRunner: map > sort
+17/04/23 20:38:19 INFO mapred.Task: Task:attempt_local462169198_0001_m_000000_0 is done. And is in the process of committing
+17/04/23 20:38:19 INFO mapred.LocalJobRunner: map > sort
+17/04/23 20:38:19 INFO mapred.Task: Task 'attempt_local462169198_0001_m_000000_0' done.
+17/04/23 20:38:19 INFO mapred.LocalJobRunner: Finishing task: attempt_local462169198_0001_m_000000_0
+17/04/23 20:38:19 INFO mapred.LocalJobRunner: map task executor complete.
+17/04/23 20:38:19 INFO mapred.LocalJobRunner: Waiting for reduce tasks
+17/04/23 20:38:19 INFO mapred.LocalJobRunner: Starting task: attempt_local462169198_0001_r_000000_0
+17/04/23 20:38:19 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+17/04/23 20:38:19 INFO mapred.ReduceTask: Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@972c2a
+17/04/23 20:38:20 INFO reduce.MergeManagerImpl: MergerManager: memoryLimit=334063200, maxSingleShuffleLimit=83515800, mergeThreshold=220481728, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+17/04/23 20:38:20 INFO reduce.EventFetcher: attempt_local462169198_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+17/04/23 20:38:22 INFO reduce.MergeManagerImpl: attempt_local462169198_0001_m_000000_0: Shuffling to disk since 2472100964 is greater than maxSingleShuffleLimit (83515800)
+17/04/23 20:38:22 INFO reduce.LocalFetcher: localfetcher#1 about to shuffle output of map attempt_local462169198_0001_m_000000_0 decomp: 2472100964 len: 2472100968 to DISK
+17/04/23 20:38:25 INFO mapred.LocalJobRunner: reduce > copy
+17/04/23 20:38:28 INFO mapred.LocalJobRunner: reduce > copy
+17/04/23 20:38:31 INFO mapred.LocalJobRunner: reduce > copy
+17/04/23 20:38:34 INFO mapred.LocalJobRunner: reduce > copy
+17/04/23 20:38:37 INFO mapred.LocalJobRunner: reduce > copy
+17/04/23 20:38:40 INFO mapred.LocalJobRunner: reduce > copy
+17/04/23 20:38:43 INFO mapred.LocalJobRunner: reduce > copy
+17/04/23 20:38:46 INFO mapred.LocalJobRunner: reduce > copy
+17/04/23 20:38:49 INFO mapred.LocalJobRunner: reduce > copy
+17/04/23 20:38:52 INFO mapred.LocalJobRunner: reduce > copy
+17/04/23 20:38:55 INFO mapred.LocalJobRunner: reduce > copy
+17/04/23 20:38:58 INFO mapred.LocalJobRunner: reduce > copy
+17/04/23 20:39:01 INFO mapred.LocalJobRunner: reduce > copy
+17/04/23 20:39:04 INFO mapred.LocalJobRunner: reduce > copy
+17/04/23 20:39:07 INFO mapred.LocalJobRunner: reduce > copy
+17/04/23 20:39:10 INFO mapred.LocalJobRunner: reduce > copy
+17/04/23 20:39:13 INFO mapred.LocalJobRunner: reduce > copy
+17/04/23 20:39:16 INFO mapred.LocalJobRunner: reduce > copy
+17/04/23 20:39:19 INFO mapred.LocalJobRunner: reduce > copy
+17/04/23 20:39:22 INFO mapred.LocalJobRunner: reduce > copy
+17/04/23 20:39:25 INFO mapred.LocalJobRunner: reduce > copy
+17/04/23 20:39:28 INFO mapred.LocalJobRunner: reduce > copy
+17/04/23 20:39:31 INFO mapred.LocalJobRunner: reduce > copy
+17/04/23 20:39:34 INFO mapred.LocalJobRunner: reduce > copy
+17/04/23 20:39:37 INFO mapred.LocalJobRunner: reduce > copy
+17/04/23 20:39:40 INFO mapred.LocalJobRunner: reduce > copy
+17/04/23 20:39:43 INFO mapred.LocalJobRunner: reduce > copy
+17/04/23 20:39:46 INFO mapred.LocalJobRunner: reduce > copy
+17/04/23 20:39:49 INFO mapred.LocalJobRunner: reduce > copy
+17/04/23 20:39:51 INFO reduce.OnDiskMapOutput: Read 2472100968 bytes from map-output for attempt_local462169198_0001_m_000000_0
+17/04/23 20:39:51 INFO reduce.EventFetcher: EventFetcher is interrupted.. Returning
+17/04/23 20:39:51 INFO mapred.LocalJobRunner: 1 / 1 copied.
+17/04/23 20:39:51 INFO reduce.MergeManagerImpl: finalMerge called with 0 in-memory map-outputs and 1 on-disk map-outputs
+17/04/23 20:39:51 INFO reduce.MergeManagerImpl: Merging 1 files, 2472100968 bytes from disk
+17/04/23 20:39:51 INFO reduce.MergeManagerImpl: Merging 0 segments, 0 bytes from memory into reduce
+17/04/23 20:39:51 INFO mapred.Merger: Merging 1 sorted segments
+17/04/23 20:39:51 INFO mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 2472100954 bytes
+17/04/23 20:39:51 INFO mapred.LocalJobRunner: 1 / 1 copied.
+17/04/23 20:39:52 INFO Configuration.deprecation: mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+17/04/23 20:39:52 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:39:53 INFO mapreduce.Job:  map 100% reduce 67%
+17/04/23 20:39:55 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:39:58 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:40:01 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:40:04 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:40:07 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:40:10 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:40:13 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:40:14 INFO mapreduce.Job:  map 100% reduce 68%
+17/04/23 20:40:16 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:40:19 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:40:22 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:40:25 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:40:28 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:40:31 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:40:34 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:40:37 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:40:40 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:40:41 INFO mapreduce.Job:  map 100% reduce 69%
+17/04/23 20:40:43 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:40:46 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:40:49 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:40:52 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:40:55 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:40:58 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:41:01 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:41:02 INFO mapreduce.Job:  map 100% reduce 70%
+17/04/23 20:41:04 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:41:07 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:41:10 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:41:13 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:41:16 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:41:19 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:41:20 INFO mapreduce.Job:  map 100% reduce 71%
+17/04/23 20:41:22 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:41:26 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:41:29 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:41:32 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:41:35 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:41:38 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:41:38 INFO mapreduce.Job:  map 100% reduce 72%
+17/04/23 20:41:41 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:41:44 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:41:47 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:41:50 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:41:53 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:41:53 INFO mapreduce.Job:  map 100% reduce 73%
+17/04/23 20:41:56 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:41:59 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:42:02 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:42:05 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:42:08 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:42:11 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:42:14 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:42:14 INFO mapreduce.Job:  map 100% reduce 74%
+17/04/23 20:42:17 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:42:20 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:42:23 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:42:26 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:42:29 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:42:32 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:42:32 INFO mapreduce.Job:  map 100% reduce 75%
+17/04/23 20:42:35 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:42:38 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:42:41 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:42:44 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:42:47 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:42:50 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:42:50 INFO mapreduce.Job:  map 100% reduce 76%
+17/04/23 20:42:53 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:42:56 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:42:59 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:43:02 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:43:05 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:43:08 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:43:11 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:43:14 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:43:17 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:43:17 INFO mapreduce.Job:  map 100% reduce 77%
+17/04/23 20:43:20 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:43:23 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:43:26 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:43:29 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:43:32 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:43:35 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:43:38 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:43:41 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:43:41 INFO mapreduce.Job:  map 100% reduce 78%
+17/04/23 20:43:44 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:43:47 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:43:50 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:43:53 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:43:56 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:43:59 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:43:59 INFO mapreduce.Job:  map 100% reduce 79%
+17/04/23 20:44:02 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:44:05 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:44:08 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:44:11 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:44:14 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:44:17 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:44:17 INFO mapreduce.Job:  map 100% reduce 80%
+17/04/23 20:44:20 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:44:23 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:44:26 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:44:29 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:44:32 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:44:32 INFO mapreduce.Job:  map 100% reduce 81%
+17/04/23 20:44:35 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:44:38 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:44:41 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:44:44 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:44:47 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:44:50 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:44:51 INFO mapreduce.Job:  map 100% reduce 82%
+17/04/23 20:44:53 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:44:56 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:44:59 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:45:02 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:45:05 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:45:08 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:45:11 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:45:12 INFO mapreduce.Job:  map 100% reduce 83%
+17/04/23 20:45:14 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:45:17 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:45:20 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:45:23 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:45:26 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:45:29 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:45:30 INFO mapreduce.Job:  map 100% reduce 84%
+17/04/23 20:45:32 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:45:35 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:45:38 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:45:41 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:45:44 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:45:45 INFO mapreduce.Job:  map 100% reduce 85%
+17/04/23 20:45:47 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:45:50 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:45:53 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:45:56 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:45:59 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:46:02 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:46:03 INFO mapreduce.Job:  map 100% reduce 86%
+17/04/23 20:46:05 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:46:08 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:46:11 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:46:14 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:46:17 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:46:20 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:46:21 INFO mapreduce.Job:  map 100% reduce 87%
+17/04/23 20:46:23 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:46:26 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:46:29 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:46:32 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:46:35 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:46:38 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:46:41 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:46:42 INFO mapreduce.Job:  map 100% reduce 88%
+17/04/23 20:46:44 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:46:47 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:46:50 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:46:53 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:46:56 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:46:59 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:47:00 INFO mapreduce.Job:  map 100% reduce 89%
+17/04/23 20:47:02 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:47:05 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:47:08 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:47:11 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:47:14 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:47:15 INFO mapreduce.Job:  map 100% reduce 90%
+17/04/23 20:47:17 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:47:20 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:47:23 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:47:26 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:47:29 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:47:32 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:47:33 INFO mapreduce.Job:  map 100% reduce 91%
+17/04/23 20:47:35 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:47:38 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:47:41 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:47:44 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:47:47 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:47:50 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:47:51 INFO mapreduce.Job:  map 100% reduce 92%
+17/04/23 20:47:53 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:47:56 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:47:59 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:48:02 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:48:05 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:48:08 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:48:11 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:48:14 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:48:15 INFO mapreduce.Job:  map 100% reduce 93%
+17/04/23 20:48:17 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:48:20 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:48:23 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:48:26 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:48:29 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:48:32 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:48:35 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:48:38 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:48:39 INFO mapreduce.Job:  map 100% reduce 94%
+17/04/23 20:48:41 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:48:44 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:48:47 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:48:50 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:48:53 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:48:56 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:48:59 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:49:02 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:49:05 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:49:08 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:49:11 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:49:14 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:49:17 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:49:18 INFO mapreduce.Job:  map 100% reduce 95%
+17/04/23 20:49:20 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:49:23 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:49:26 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:49:29 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:49:32 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:49:35 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:49:38 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:49:39 INFO mapreduce.Job:  map 100% reduce 96%
+17/04/23 20:49:41 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:49:44 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:49:47 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:49:50 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:49:53 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:49:56 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:49:59 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:50:02 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:50:05 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:50:08 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:50:08 INFO mapreduce.Job:  map 100% reduce 97%
+17/04/23 20:50:11 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:50:14 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:50:17 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:50:20 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:50:23 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:50:26 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:50:29 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:50:29 INFO mapreduce.Job:  map 100% reduce 98%
+17/04/23 20:50:32 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:50:35 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:50:38 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:50:41 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:50:44 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:50:47 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:50:50 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:50:50 INFO mapreduce.Job:  map 100% reduce 99%
+17/04/23 20:50:53 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:50:56 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:50:59 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:51:02 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:51:05 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:51:08 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:51:11 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:51:14 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:51:14 INFO mapreduce.Job:  map 100% reduce 100%
+17/04/23 20:51:17 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:51:20 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:51:23 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:51:24 INFO mapred.Task: Task:attempt_local462169198_0001_r_000000_0 is done. And is in the process of committing
+17/04/23 20:51:24 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:51:24 INFO mapred.Task: Task attempt_local462169198_0001_r_000000_0 is allowed to commit now
+17/04/23 20:51:24 INFO output.FileOutputCommitter: Saved output of task 'attempt_local462169198_0001_r_000000_0' to hdfs://localhost:9000/home/hadoop/output4Activity1/_temporary/0/task_local462169198_0001_r_000000
+17/04/23 20:51:24 INFO mapred.LocalJobRunner: reduce > reduce
+17/04/23 20:51:24 INFO mapred.Task: Task 'attempt_local462169198_0001_r_000000_0' done.
+17/04/23 20:51:24 INFO mapred.LocalJobRunner: Finishing task: attempt_local462169198_0001_r_000000_0
+17/04/23 20:51:24 INFO mapred.LocalJobRunner: reduce task executor complete.
+17/04/23 20:51:24 INFO mapreduce.Job: Job job_local462169198_0001 completed successfully
+17/04/23 20:51:24 INFO mapreduce.Job: Counters: 38
+	File System Counters
+		FILE: Number of bytes read=14250275688
+		FILE: Number of bytes written=16722885300
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=19155194
+		HDFS: Number of bytes written=9495904000
+		HDFS: Number of read operations=17
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=4
+	Map-Reduce Framework
+		Map input records=730
+		Map output records=76362012
+		Map output bytes=2757234494
+		Map output materialized bytes=2472100968
+		Input split bytes=146
+		Combine input records=128993626
+		Combine output records=102665461
+		Reduce input groups=50033847
+		Reduce shuffle bytes=2472100968
+		Reduce input records=50033847
+		Reduce output records=170083139
+		Spilled Records=199409404
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=7119
+		CPU time spent (ms)=0
+		Physical memory (bytes) snapshot=0
+		Virtual memory (bytes) snapshot=0
+		Total committed heap usage (bytes)=775421952
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=434535
+	File Output Format Counters 
+		Bytes Written=9495904000
